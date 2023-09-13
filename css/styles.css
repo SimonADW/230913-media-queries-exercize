@@ -10,16 +10,16 @@ body {
 main {
 	display: flex;
 	align-items: center;
-	width: fit-content;
+	width: 80%;
 	margin: 10rem auto;
-	background: #f1f1f1;
 	gap: 0.3rem;
 	overflow: hidden;
 }
 
 .main__container {
 	border: 0.3rem solid black;
-	width: 25rem;
+	background: #f1f1f1;
+	width: 33%;
 	height: 30rem;
 	padding: 1rem 3rem;
 }
@@ -32,11 +32,35 @@ main {
 
 }
 
-.main__container:nth-child(2) {
+.container__links {
 	width: 19rem;
 	border-radius: 0.8rem;
 }
 
-.main__container:nth-child(3) {
+.container__contact {
 	width: 23rem;
+}
+
+h2 {
+	font-weight: 600;
+}
+
+@media screen and (max-width: 860px){
+	body {
+	}
+	
+	main {
+		font-size: 24px;
+		flex-direction: column;
+		margin: 0.2rem auto;
+		width: 100%;
+	}
+	
+	.main__container {
+		width: 100%;
+		border-radius: 0;
+		padding: 1rem 1.6rem;	
+	}
+
+	
 }
