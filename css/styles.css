@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 20px;
+	background: linear-gradient(rgb,rgb);
+}
+
+main {
+	display: flex;
+	align-items: center;
+	width: fit-content;
+	margin: 10rem auto;
+	background: #f1f1f1;
+	gap: 0.3rem;
+	overflow: hidden;
+}
+
+.main__container {
+	border: 0.3rem solid black;
+	width: 25rem;
+	height: 30rem;
+	padding: 1rem 3rem;
+}
+
+
+.container__content {
+	display: flex;
+	flex-direction: column;
+	gap: 1.3rem;
+
+}
+
+.main__container:nth-child(2) {
+	width: 19rem;
+	border-radius: 0.8rem;
+}
+
+.main__container:nth-child(3) {
+	width: 23rem;
+}
